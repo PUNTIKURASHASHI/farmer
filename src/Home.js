@@ -28,7 +28,7 @@ import banner from "banner.jpg";
 
 // Dashboard components
 
-function Dashboard() {
+function Home() {
   return (
     <DashboardLayout>
       <DashboardNavbar />
@@ -85,4 +85,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Home;

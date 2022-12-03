@@ -46,25 +46,31 @@ function Notifications() {
               <MDBox pt={2} px={2}>
                 <MDAlert color="success" dismissible>
                   {alertContent(
-                    "[TRANSPORTER] RADHIKA : The 90 Kgs Load was delivered to Nirmal successfully .......... 3:05 PM-02/12/2022"
+                    "[TRANSPORTER] RADHIKA : The 90 Kgs Load was delivered to Nirmal successfully. 3:05 PM"
                   )}
                 </MDAlert>
-                <MDAlert color="secondary" dismissible>
-                  {alertContent("[CUSTOMER] SURESH : The Quality of Wheat is Excellent.........")}
+                <MDAlert color="secoundary" dismissible>
+                  {alertContent("[CUSTOMER] SURESH : The Quality of Wheat is Excellent. 4:35 PM")}
                 </MDAlert>
-                <MDAlert color="success" dismissible>
-                  {alertContent("success")}
-                </MDAlert>
-                <MDAlert color="secondary" dismissible>
+                <MDAlert color="secoundary" dismissible>
                   {alertContent(
-                    "[TRANSPORTER] RAJESH : The 215 Kgs Load was delivered to Khammam successfully .......... 5:38 PM-02/12/2022"
+                    "[CUSTOMER] SURESH : The Dal was deliverd on time.And quality is good. 5:02 PM"
                   )}
                 </MDAlert>
                 <MDAlert color="success" dismissible>
-                  {alertContent("warning")}
+                  {alertContent(
+                    "[TRANSPORTER] RAJESH : The 215 Kgs Load was delivered to Khammam successfully. 5:38 PM"
+                  )}
                 </MDAlert>
-                <MDAlert color="info" dismissible>
-                  {alertContent("info")}
+                <MDAlert color="warning" dismissible>
+                  {alertContent(
+                    "[TRANSPORTER] ISHA :The order of 90 Kgs got cancelled by the customer. 6:12 PM"
+                  )}
+                </MDAlert>
+                <MDAlert color="success" dismissible>
+                  {alertContent(
+                    "[TRANSPORTER] PREETHI : 120 Kgs Load was delivered to Pedhapalli successfully. 6:18 PM"
+                  )}
                 </MDAlert>
               </MDBox>
             </Card>

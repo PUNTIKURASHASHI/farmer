@@ -191,15 +191,15 @@ function Dashboard() {
             </Grid> */}
           </Grid>
         </MDBox>
-        <MDBox>
+        {/* <MDBox>
           <Grid container spacing={3}>
             <Grid item xs={12} md={6} lg={8}>
               <Projects />
             </Grid>
           </Grid>
-        </MDBox>
+        </MDBox> */}
       </MDBox>
-      <div className="ml=75 d-block">
+      <div className="ml=75 d-block ">
         <ChatBot steps={steps} styles={{ position: "fixed", left: "100px" }} />
       </div>
       <Footer />

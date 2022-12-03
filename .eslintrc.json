@@ -13,14 +13,13 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ],
+    "import/prefer-default-export": "warn" ,
+    "prettier/prettier": 0,
+    "react/prop-types": "off",
+    "no-unused-vars": "off",
     "default-param-last": "off",
     "react/react-in-jsx-scope": "off",
+    "class-methods-use-this": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-props-no-spreading": [
       1,

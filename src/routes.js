@@ -38,11 +38,14 @@ Coded by www.creative-tim.com
 // Material Dashboard 2 React layouts
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
+import Buy from "buy";
 import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Home from "Home";
+import Maps from "Maps";
+import Abnormalities from "Abnormalities";
 // @mui icons
 import Icon from "@mui/material/Icon";
 
@@ -71,6 +74,30 @@ const routes = [
     route: "/tables",
     component: <Tables />,
   },
+  {
+    type: "collapse",
+    name: "Purchase",
+    key: "Buy",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/buy",
+    component: <Buy />,
+  },
+  {
+    type: "collapse",
+    name: "Maps",
+    key: "Maps",
+    icon: <Icon fontSize="small">receipt_long</Icon>,
+    route: "/maps",
+    component: <Maps />,
+  },
+  {
+    type: "collapse",
+    name: "Abnormalities",
+    key: "Abnormalities",
+    icon: <Icon fontSize="small">receipt_long</Icon>,
+    route: "/abnormalities",
+    component: <Abnormalities />,
+  },
   // {
   //   type: "collapse",
   //   name: "RTL",
@@ -87,14 +114,14 @@ const routes = [
     route: "/notifications",
     component: <Notifications />,
   },
-  {
-    type: "collapse",
-    name: "Profile",
-    key: "profile",
-    icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
-    component: <Profile />,
-  },
+  // {
+  //   type: "collapse",
+  //   name: "Profile",
+  //   key: "profile",
+  //   icon: <Icon fontSize="small">person</Icon>,
+  //   route: "/profile",
+  //   component: <Profile />,
+  // },
   {
     type: "collapse",
     name: "Sign In",

@@ -1,0 +1,16 @@
+.search  {
+    margin-top: 130px;
+    /* margin: 10px 5px; */
+    margin-left:75%;
+    padding: 10px 10px;
+    padding-right: 90px;
+    border-style:double;
+    margin-bottom: 30px;
+    
+    color: #070707;
+    box-shadow: 2px 3px 28px 1px rgba(0,0,0,0.1);
+
+}
+.search:hover{
+background-color: rgb(198, 244, 202);
+}
