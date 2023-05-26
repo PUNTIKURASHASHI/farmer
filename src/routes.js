@@ -46,6 +46,7 @@ import SignUp from "layouts/authentication/sign-up";
 import Home from "Home";
 import Maps from "Maps";
 import Abnormalities from "Abnormalities";
+import Chat from "assets/context/chat"
 // @mui icons
 import Icon from "@mui/material/Icon";
 
@@ -92,10 +93,10 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Abnormalities",
-    key: "Abnormalities",
+    name: "Request",
+    key: "Request",
     icon: <Icon fontSize="small">receipt_long</Icon>,
-    route: "/abnormalities",
+    route: "/Request",
     component: <Abnormalities />,
   },
   // {
@@ -130,13 +131,21 @@ const routes = [
     route: "/authentication/sign-in",
     component: <SignIn />,
   },
+  // {
+  //   type: "collapse",
+  //   name: "Sign Up",
+  //   key: "sign-up",
+  //   icon: <Icon fontSize="small">assignment</Icon>,
+  //   route: "/authentication/sign-up",
+  //   component: <SignUp />,
+  // },
   {
     type: "collapse",
-    name: "Sign Up",
-    key: "sign-up",
+    name: "Chat",
+    key: "CHat",
     icon: <Icon fontSize="small">assignment</Icon>,
-    route: "/authentication/sign-up",
-    component: <SignUp />,
+    route: "/Chat",
+    component: <Chat />,
   },
 ];
 

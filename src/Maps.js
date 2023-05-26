@@ -6,10 +6,12 @@ import { useState } from "react";
 import MapData from "mapData";
 import {Hospitals} from "Hospitals"
 import { Table1Data } from "Table1_data";
+import { ColdStorage } from "ColdStorage"
 // Data
 import "./Maps.css";
 import Table from "Table";
 import Table1 from "Table1";
+import Table2 from "Table2"
 // Dashboard components
 
 function Maps() {
@@ -40,9 +42,11 @@ function Maps() {
             onChange={(e) => setQuery(e.target.value)}
           />
         </div>
-         <MapData data={search(Hospitals,Table1Data)} />
-         <Table data={search(Hospitals)}/>
+        <Table data={search(Hospitals)}/>
          <Table1 data={search(Table1Data)}/>
+         <Table2 data={search(ColdStorage)}/>
+         <MapData data={search(Hospitals,Table1Data,ColdStorage)} />
+        
       </div>
       <Footer />
     </DashboardLayout>

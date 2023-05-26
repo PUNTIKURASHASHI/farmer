@@ -19,6 +19,7 @@ Coded by www.creative-tim.com
 */
 
 import { createContext, useContext, useReducer, useMemo } from "react";
+
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
@@ -74,7 +75,7 @@ function MaterialUIControllerProvider({ children }) {
     transparentSidenav: false,
     whiteSidenav: false,
     sidenavColor: "info",
-    transparentNavbar: false,
+    transparentNavbar: true,
     fixedNavbar: true,
     openConfigurator: false,
     direction: "ltr",

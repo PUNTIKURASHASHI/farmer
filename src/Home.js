@@ -32,10 +32,10 @@ function Home() {
   return (
     <DashboardLayout>
       <DashboardNavbar />
-      <div className="home-main">
+      <div className="home-main mb-3">
         <img src={banner} className="home-bg" alt="c1" />
         <div className="home-container">
-          <h1 className="home-head">FARMING COMPANY</h1>
+          <h1 className="home-head">No Middleman Farming</h1>
           <p className="home-p">
             the moto behind building this website is the person who feeds us should be able to feed
             his family too!!!
@@ -50,7 +50,6 @@ function Home() {
                   alt="c3"
                 />
                 <h1 className="card-head">farmer</h1>
-                <p>akjhf kjh lkrfh lka alshfla alsgflahb ahlsdf</p>
                 <link href="" />
               </div>
             </div>
@@ -62,7 +61,6 @@ function Home() {
                   alt="c3"
                 />
                 <h1 className="card-head">transporter</h1>
-                <p>akjhf kjh lkrfh lka alshfla alsgflahb ahlsdf</p>
                 <link href="" />
               </div>
             </div>
@@ -74,7 +72,6 @@ function Home() {
                   alt="c3"
                 />
                 <h1 className="card-head">customer</h1>
-                <p>akjhf kjh lkrfh lka alshfla alsgflahb ahlsdf</p>
               </div>
             </div>
           </div>
@@ -82,6 +79,7 @@ function Home() {
       </div>
       <Footer />
     </DashboardLayout>
+    
   );
 }
 

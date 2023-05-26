@@ -45,8 +45,8 @@ function MapData({ data}) {
           )
           )
         }
-        {
-          data.map((item1) => (  (<Marker longitude={item1.longitude} latitude={item1.latitude} />) ))
+        {/* {
+          data.map((item1) => (  (<Marker longitude={item1.longitude} latitude={item1.latitide} />) ))
         }
         {
           data.map((item1) =>  (<Popup longitude={item1.longitude} latitude={item1.latitude}
@@ -56,7 +56,8 @@ function MapData({ data}) {
               </Popup>
           )
           )
-        }
+        } */}
+
 
 
         {/* <Marker longitude={78.3026} latitude={17.5545} ></Marker> */}

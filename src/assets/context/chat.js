@@ -26,27 +26,27 @@ export default function Chat() {
       id: "issues",
       options: [
         {
-          value: "Maps",
-          label: "Maps",
-          trigger: "Maps",
+          value: "Order",
+          label: "Order",
+          trigger: "Order",
         },
-        { value: "data", label: "data", trigger: "data" },
+        { value: "Delivery", label: "Delivery", trigger: "Delivery" },
       ],
     },
     {
-      id: "Maps",
-      message: "thanks for choosing maps we will guide you through your nearby services",
+      id: "Order",
+      message: "thanks for choosing Orders we will guide you through your Order services",
       end: true,
     },
     {
-      id: "data",
-      message: "Thanks for data option we will guide you through your personal information",
+      id: "Delivery",
+      message: "Thanks for choosing Delivery option we will guide you through your Order delivery information",
       end: true,
     },
   ];
   return (
     <div className="ml=75 d-block">
-        <ChatBot steps={steps} styles={{ position: "fixed", left: "100px" }} />
+        <ChatBot steps={steps} styles={{  right: "200px" }} />
     </div>
   );
 }

@@ -161,7 +161,9 @@ function DashboardNavbar({ absolute, light, isMini }) {
                 color="inherit"
                 sx={navbarIconButton}
                 onClick={handleConfiguratorOpen}
-              />
+              >
+                <Icon sx={iconsStyle}>settings</Icon>
+              </IconButton>
               <IconButton
                 size="small"
                 disableRipple
